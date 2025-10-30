@@ -13,10 +13,6 @@ zkVoteProtocol is Nepal's first blockchain-powered voting system. It provides a 
 - **Customizable Polls**: Create polls with multiple options and custom durations
 - **Nepal Specific**: Tailored for Nepal's voting requirements and regulations
 
-## User Interface
-
-https://github.com/user-attachments/assets/7c82994c-7b16-43ea-9a18-1f754bcb536d
-
 ## Getting Started
 
 ### Prerequisites
