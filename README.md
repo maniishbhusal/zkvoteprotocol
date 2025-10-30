@@ -1,0 +1,111 @@
+# VoteChain Nepal: Blockchain-Powered Voting System
+
+![Static Badge](https://img.shields.io/badge/Solana_Hackathon_Nepal-blue)
+
+zkVoteProtocol is Nepal's first blockchain-powered voting system. It provides a secure, transparent, and efficient platform for conducting polls and elections with zero-knowledge identity verification.
+
+## Features
+
+- **Zero-Knowledge Identity Verification**: Verify voters without storing personal data
+- **Blockchain Security**: Utilizes Solana blockchain for transparent and tamper-proof voting
+- **User-friendly Interface**: Easy-to-use web application for creating and participating in polls
+- **Real-time Results**: View poll results as they come in
+- **Customizable Polls**: Create polls with multiple options and custom durations
+- **Nepal Specific**: Tailored for Nepal's voting requirements and regulations
+
+## User Interface
+
+https://github.com/user-attachments/assets/7c82994c-7b16-43ea-9a18-1f754bcb536d
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- Yarn package manager
+- Solana CLI tools
+- A Solana wallet (e.g., Phantom Wallet)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-org/votechain-nepal.git
+cd votechain-nepal
+```
+2. Install dependencies:
+```bash
+yarn install
+```
+3. Generate a New Wallet:
+```bash
+solana-keygen new -o id.json
+```
+4. Airdrop SOL into Wallet:
+```bash
+solana airdrop 4 <publicKey> --url devnet
+```
+5. Build the Anchor Project:
+```bash
+anchor build
+```
+6. Get Program ID:
+```bash
+solana address -k ./target/deploy/votechain_nepal.json
+```
+7. Deploy the Anchor Program:
+```bash
+anchor deploy
+```
+8. Start the development server:
+```bash
+yarn dev
+```
+
+9. Open your browser and navigate to `http://localhost:3000` to view the application.
+
+### Usage
+
+1. Connect your Solana wallet to the application.
+2. To create a poll, click on "Create Poll" and follow the prompts.
+3. To vote in an existing poll, enter the poll code and select your choice.
+4. View real-time results after voting.
+
+## Technologies Used
+
+- **Frontend**:
+  - React.js
+  - Tailwind CSS for styling
+  - react-router-dom for routing
+
+- **Blockchain**:
+  - Solana blockchain
+  - @solana/web3.js for Solana interactions
+  - @project-serum/anchor for smart contract interactions
+
+- **Wallet Integration**:
+  - @solana/wallet-adapter for connecting to Solana wallets
+
+- **Build Tools**:
+  - Create React App
+  - Webpack
+
+- **Version Control**:
+  - Git & GitHub
+
+## Contributing
+
+We welcome contributions from the community, especially those that enhance its blockchain capabilities. Feel free to fork the repository, make your improvements, and submit a pull request.
+
+## License
+
+This project is licensed under the Apache-2.0 license - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Special thanks to the Solana Foundation for supporting blockchain innovation in Nepal
+- Gratitude to the Nepali developer community for their continued support
+
+## Contact
+
+Feel free to reach out to our team at contact@votechain-nepal.gov.np
