@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              VoteChain Nepal
+              ZkVote Nepal
             </h3>
             <p className="text-sm text-muted-foreground">
               Decentralized voting platform powered by Solana and zkID technology
@@ -30,8 +30,6 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold">Resources</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Documentation</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Whitepaper</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">API</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Support</a></li>
             </ul>
@@ -52,7 +50,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2025 VoteChain Nepal. All rights reserved.
+            © 2025 ZkVote Nepal. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

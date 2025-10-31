@@ -41,8 +41,8 @@ function App() {
   <a href="/" className="flex items-center justify-center">
     <div className="bg-black p-1 rounded-lg overflow-hidden">
       <img 
-        src="/votechain-nepal.png" 
-        alt="VoteChain Nepal Logo" 
+            src="/ZkVote-nepal.png" 
+            alt="ZkVote Nepal Logo" 
         className="h-28 w-auto md:h-36 lg:h-44 object-contain"
       />
     </div>
@@ -55,7 +55,7 @@ function App() {
   </span>
 </div>
             <Modal style={customStyle} isOpen={open} onRequestClose={() => setOpen(false)}>
-              <h1 className="text-[2.75rem] text-indigo-800 font-bold text-center">How to use VoteChain Nepal?</h1>
+              <h1 className="text-[2.75rem] text-indigo-800 font-bold text-center">How to use ZkVote Nepal?</h1>
               <p className="text-lg text-justify">
                 First of all, you'll have to install a solana wallet in your browser, like 
                 <a

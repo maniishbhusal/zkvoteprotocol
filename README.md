@@ -1,4 +1,4 @@
-# VoteChain Nepal: Blockchain-Powered Voting System
+# ZkVote Nepal: Blockchain-Powered Voting System
 
 ![Static Badge](https://img.shields.io/badge/Solana_Hackathon_Nepal-blue)
 
@@ -26,8 +26,9 @@ zkVoteProtocol is Nepal's first blockchain-powered voting system. It provides a 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-org/votechain-nepal.git
-cd votechain-nepal
+git clone https://github.com/your-org/ZkVote-nepal.git
+cd ZkVote-nepal
+
 ```
 2. Install dependencies:
 ```bash
@@ -47,7 +48,7 @@ anchor build
 ```
 6. Get Program ID:
 ```bash
-solana address -k ./target/deploy/votechain_nepal.json
+solana address -k ./target/deploy/ZkVote_nepal.json
 ```
 7. Deploy the Anchor Program:
 ```bash
@@ -104,4 +105,4 @@ This project is licensed under the Apache-2.0 license - see the [LICENSE](LICENS
 
 ## Contact
 
-Feel free to reach out to our team at contact@votechain-nepal.gov.np
+Feel free to reach out to our team at contact@ZkVote-nepal.gov.np

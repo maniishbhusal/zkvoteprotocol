@@ -16,7 +16,7 @@ function Home() {
         </h1>
         <WalletMultiButton />
         <div className="mt-8 text-center max-w-2xl">
-          <h2 className="text-2xl text-indigo-300 font-semibold mb-4">VoteChain Nepal</h2>
+          <h2 className="text-2xl text-indigo-300 font-semibold mb-4">ZkVote Nepal</h2>
           <p className="text-lg text-gray-300">
             Nepal's first blockchain-powered voting system. Cast your vote securely, transparently, and instantly with zero-knowledge identity verification.
           </p>
@@ -28,7 +28,7 @@ function Home() {
   return (
     <div className="flex flex-col items-center justify-center gap-10 w-full h-full">
       <div className="text-center mb-8">
-        <h1 className="text-3xl text-white font-bold">Welcome to VoteChain Nepal</h1>
+  <h1 className="text-3xl text-white font-bold">Welcome to ZkVote Nepal</h1>
         <p className="text-lg text-gray-300 mt-2">Participate in Nepal's democratic future</p>
       </div>
       
