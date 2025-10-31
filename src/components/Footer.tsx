@@ -30,8 +30,6 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold">Resources</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Documentation</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Whitepaper</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">API</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Support</a></li>
             </ul>
